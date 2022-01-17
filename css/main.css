@@ -17,6 +17,7 @@ body {
     width: 800px;
     margin-top: 100px;
     margin-left: calc(50% - 400px);
+    position: relative;
 }
 
 .container > .left-column {
@@ -29,11 +30,14 @@ body {
     background-position: center;
     background-size: cover;
     color: #fff;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
 }
 .container > .right-column {
     width: 60%;
     padding: 60px;
-    float: left;
+    float: right;
     background-color: #fff;
     position: relative;
 }
@@ -44,6 +48,10 @@ body {
 
 .bottom-links {
     color: #fff8;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
 }
 .bottom-links > .link {
     color: #fff8;
@@ -60,8 +68,8 @@ body {
     font-size: 50px;
     transform: rotate(45deg);
     position: absolute;
-    right: 0;
     top: 0;
+    right: 0;
 }
 
 .right-column span {
